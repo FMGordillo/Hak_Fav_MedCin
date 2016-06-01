@@ -10,22 +10,33 @@
     tools:context=".LoginMain">
 
     <Button
+        android:id="@+id/paciente_login_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Paciente"
-        android:id="@+id/paciente_button"
-        android:layout_above="@+id/fundacion_button"
-        android:layout_alignRight="@+id/fundacion_button"
-        android:layout_alignEnd="@+id/fundacion_button"
-        android:layout_alignLeft="@+id/fundacion_button"
-        android:layout_alignStart="@+id/fundacion_button" />
+        android:layout_above="@+id/fundacion_login_button"
+        android:layout_alignEnd="@+id/fundacion_login_button"
+        android:layout_alignLeft="@+id/fundacion_login_button"
+        android:layout_alignRight="@+id/fundacion_login_button"
+        android:layout_alignStart="@+id/fundacion_login_button"
+        android:text="Paciente" />
 
     <Button
+        android:id="@+id/fundacion_login_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Fundación Favarolo" />
+
+    <TextView
+        android:id="@+id/loginTexto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Fundación Favarolo"
-        android:id="@+id/fundacion_button"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignEnd="@+id/fundacion_login_button"
+        android:layout_alignRight="@+id/fundacion_login_button"
+        android:layout_below="@+id/fundacion_login_button"
+        android:layout_marginTop="46dp"
+        android:text="Indique el tipo de usuario"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
 
 </RelativeLayout>

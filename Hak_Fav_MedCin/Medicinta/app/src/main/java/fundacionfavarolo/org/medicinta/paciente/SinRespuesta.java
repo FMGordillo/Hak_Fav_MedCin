@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.SeekBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import fundacionfavarolo.org.medicinta.R;
 
@@ -76,7 +77,8 @@ public class SinRespuesta extends AppCompatActivity {
         listoButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(SinRespuesta.this, SinRespuestaAgradecimiento.class));
+                Toast.makeText(getApplicationContext(), "Muchas gracias por responder", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(SinRespuesta.this, TableroPaciente.class));
             }
         });
     }

@@ -1,9 +1,16 @@
 <resources>
     <string name="app_name">MEDICINTA</string>
+
+    <!-- PACIENTE DASHBOARD -->
     <string name="agenda_button">Contacto</string>
-    <string name="mensajes_button">Mensajes</string>
-    <string name="consultas_button">Consultar Médico</string>
     <string name="calendario_button">Calendario</string>
+    <string name="consultas_button">Consultar Médico</string>
+    <string name="mensajes_button">Mensajes</string>
+
+    <!-- MEDICO DASHBOARD -->
+    <string name="mensajes_button_medico">Mensajes</string>
+    <string name="pacientes_asignados_button_medico">Pacientes asignados</string>
+
     <string name="textoSinRespuesta">Hemos detectado una anomalía. Por favor responda las siguientes preguntas. Recuerde que es por su seguridad. Al finalizar haga clic en "Listo".</string>
 
     <!-- PREGUNTAS DEL CUESTIONARIO -->

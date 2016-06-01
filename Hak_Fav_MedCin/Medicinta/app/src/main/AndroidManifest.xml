@@ -4,21 +4,26 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/medicinta_ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".LoginMain">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".paciente.PacienteLogin" />
         <activity android:name=".paciente.TableroPaciente" />
         <activity android:name=".paciente.SinRespuesta" />
-        <activity android:name=".paciente.SinRespuestaAgradecimiento"></activity>
+        <activity android:name=".paciente.SinRespuestaAgradecimiento" />
+        <activity android:name=".medico.MedicoLogin" />
+        <activity android:name=".medico.TableroMedico" />
+        <activity android:name=".paciente.ContactoPaciente" />
+        <activity android:name=".paciente.MensajesPaciente" />
+        <activity android:name=".paciente.ConsultarMedicoPaciente" />
+        <activity android:name=".paciente.CalendarioPaciente"></activity>
     </application>
 
 </manifest>
