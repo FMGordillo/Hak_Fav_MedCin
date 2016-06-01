@@ -9,24 +9,46 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="fundacionfavarolo.org.medicinta.paciente.ContactoPaciente">
 
-    <DialerFilter
-        android:layout_width="match_parent"
+    <Button
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true">
+        android:text="Agregar Contacto"
+        android:id="@+id/contacto_agregar"
+        android:background="@drawable/button"
+        android:textColor="#45D6D1"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="151dp"
+        android:layout_marginBottom="20dp" />
 
-        <EditText
-            android:id="@android:id/hint"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Hint" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Borrar contacto"
+        android:id="@+id/contacto_borrar"
+        android:layout_below="@+id/contacto_agregar"
+        android:layout_alignRight="@+id/contacto_agregar"
+        android:layout_alignEnd="@+id/contacto_agregar"
+        android:layout_alignLeft="@+id/contacto_agregar"
+        android:layout_alignStart="@+id/contacto_agregar"
+        android:background="@drawable/button"
+        android:textColor="#45D6D1"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp" />
 
-        <EditText
-            android:id="@android:id/primary"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@android:id/hint"
-            android:text="Primary" />
-    </DialerFilter>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver contactos"
+        android:id="@+id/contacto_consulta"
+        android:layout_below="@+id/contacto_borrar"
+        android:layout_alignRight="@+id/contacto_agregar"
+        android:layout_alignEnd="@+id/contacto_agregar"
+        android:layout_alignLeft="@+id/contacto_borrar"
+        android:layout_alignStart="@+id/contacto_borrar"
+        android:background="@drawable/button"
+        android:textColor="#45D6D1"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp" />
 </RelativeLayout>

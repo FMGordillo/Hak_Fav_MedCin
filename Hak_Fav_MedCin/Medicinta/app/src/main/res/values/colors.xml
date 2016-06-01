@@ -3,4 +3,5 @@
     <color name="colorPrimary">#FF4DB6AC</color>
     <color name="colorPrimaryDark">#FF47D1CA</color>
     <color name="colorAccent">#FF47D1CA</color>
+    <color name="focusCuadro">#aaaaaa</color>
 </resources>

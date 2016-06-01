@@ -11,32 +11,37 @@
 
     <Button
         android:id="@+id/paciente_login_button"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/fundacion_login_button"
-        android:layout_alignEnd="@+id/fundacion_login_button"
+        android:text="Paciente"
+
+        android:background="@drawable/button"
+        android:textColor="#45D6D1"
+        android:textSize="20sp"
+        android:layout_above="@+id/loginTexto"
         android:layout_alignLeft="@+id/fundacion_login_button"
-        android:layout_alignRight="@+id/fundacion_login_button"
         android:layout_alignStart="@+id/fundacion_login_button"
-        android:text="Paciente" />
+        android:layout_marginBottom="20dp" />
 
     <Button
         android:id="@+id/fundacion_login_button"
-        android:layout_width="200dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
+        android:text="Fundación Favaloro"
+        android:background="@drawable/button"
+        android:textColor="#45D6D1"
+        android:textSize="20sp"
+        android:layout_below="@+id/loginTexto"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="Fundación Favarolo" />
+        android:layout_marginTop="20dp" />
 
     <TextView
         android:id="@+id/loginTexto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/fundacion_login_button"
-        android:layout_alignRight="@+id/fundacion_login_button"
-        android:layout_below="@+id/fundacion_login_button"
-        android:layout_marginTop="46dp"
         android:text="Indique el tipo de usuario"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

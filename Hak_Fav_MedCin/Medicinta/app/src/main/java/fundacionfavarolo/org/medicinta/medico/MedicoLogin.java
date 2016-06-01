@@ -12,7 +12,6 @@ import fundacionfavarolo.org.medicinta.R;
 
 public class MedicoLogin extends AppCompatActivity {
 
-    private Button debug;
     private Button iniciarSesion;
     private EditText usernameIngresado;
     private EditText passwordIngresado;
@@ -42,7 +41,6 @@ public class MedicoLogin extends AppCompatActivity {
     private void initComponents() {
         usernameIngresado = (EditText) findViewById(R.id.doctor_login_usuario);
         passwordIngresado = (EditText) findViewById(R.id.doctor_login_password);
-        debug = (Button) findViewById(R.id.debug_medico);
         iniciarSesion = (Button) findViewById(R.id.login_button_medico);
     }
 }

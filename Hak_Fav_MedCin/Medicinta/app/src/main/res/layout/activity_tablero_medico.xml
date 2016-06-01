@@ -9,21 +9,43 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".medico.TableroMedico">
 
-    <Button
-        android:id="@+id/mensajes_button_medico"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="137dp"
-        android:text="@string/mensajes_button_medico" />
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="1">
 
-    <Button
-        android:id="@+id/pacientes_asignados_button_medico"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/mensajes_button_medico"
-        android:layout_centerHorizontal="true"
-        android:text="@string/pacientes_asignados_button_medico" />
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="0.5">
+
+            <Button
+                android:id="@+id/mensajes_button_medico"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/mensajes_button_medico"
+                android:background="@drawable/button"
+                android:textColor="#45D6D1"
+                android:textSize="20sp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="0.5">
+
+            <Button
+                android:id="@+id/pacientes_asignados_button_medico"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/pacientes_asignados_button_medico"
+                android:background="@drawable/button"
+                android:textColor="#45D6D1"
+                android:textSize="20sp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp" />
+        </TableRow>
+    </GridLayout>
 </RelativeLayout>

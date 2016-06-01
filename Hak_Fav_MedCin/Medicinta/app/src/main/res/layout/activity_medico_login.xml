@@ -36,13 +36,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/doctor_login_password"
         android:layout_centerHorizontal="true"
-        android:text="Iniciar Sesion" />
+        android:text="Iniciar Sesion"
+        android:background="@drawable/button"
+        android:textColor="#45D6D1"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp" />
 
-    <Button
-        android:id="@+id/debug_medico"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/login_button_medico"
-        android:layout_centerHorizontal="true"
-        android:text="Debug" />
 </RelativeLayout>

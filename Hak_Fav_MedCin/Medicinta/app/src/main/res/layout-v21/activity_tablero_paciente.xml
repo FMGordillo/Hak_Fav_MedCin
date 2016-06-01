@@ -36,7 +36,11 @@
                 android:layout_height="fill_parent"
                 android:layout_column="0"
                 android:layout_weight=".50"
-                android:text="@string/agenda_button" />
+                android:text="@string/agenda_button"
+                android:background="@drawable/button"
+                android:textColor="#45D6D1"
+                android:textSize="20sp"
+                android:layout_marginRight="5dp" />
 
             <Button
                 android:id="@+id/mensajes_button"
@@ -44,7 +48,11 @@
                 android:layout_height="fill_parent"
                 android:layout_column="1"
                 android:layout_weight=".50"
-                android:text="@string/mensajes_button" />
+                android:text="@string/mensajes_button"
+                android:background="@drawable/button"
+                android:textColor="#45D6D1"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp" />
         </TableRow>
 
         <TableRow
@@ -58,7 +66,11 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_column="0"
-                android:text="@string/consultas_button" />
+                android:text="@string/consultas_button"
+                android:background="@drawable/button"
+                android:textColor="#45D6D1"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp" />
         </TableRow>
 
         <TableRow
@@ -70,7 +82,11 @@
                 android:id="@+id/calendario_button"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="@string/calendario_button" />
+                android:text="@string/calendario_button"
+                android:background="@drawable/button"
+                android:textColor="#45D6D1"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp" />
         </TableRow>
 
     </GridLayout>
