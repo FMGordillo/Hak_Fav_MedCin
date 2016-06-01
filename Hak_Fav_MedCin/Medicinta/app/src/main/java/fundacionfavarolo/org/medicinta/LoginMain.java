@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import fundacionfavarolo.org.medicinta.medico.MedicoLogin;
 import fundacionfavarolo.org.medicinta.paciente.PacienteLogin;
 
 public class LoginMain extends AppCompatActivity {
@@ -30,7 +31,7 @@ public class LoginMain extends AppCompatActivity {
         favaroloButton.setOnClickListener(new View.OnClickListener() { //TODO Change
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(LoginMain.this, PacienteLogin.class));
+                startActivity(new Intent(LoginMain.this, MedicoLogin.class));
             }
         });
         }

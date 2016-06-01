@@ -12,7 +12,7 @@ import fundacionfavarolo.org.medicinta.R;
 
 public class MedicoLogin extends AppCompatActivity {
 
-    private Button iniciarSesion;
+    private Button iniciarSesionMedico;
     private EditText usernameIngresado;
     private EditText passwordIngresado;
     private String usernamePosta = "doc";
@@ -24,7 +24,7 @@ public class MedicoLogin extends AppCompatActivity {
         setContentView(R.layout.activity_medico_login);
         initComponents();
 
-        iniciarSesion.setOnClickListener(new View.OnClickListener() {
+        iniciarSesionMedico.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -41,6 +41,6 @@ public class MedicoLogin extends AppCompatActivity {
     private void initComponents() {
         usernameIngresado = (EditText) findViewById(R.id.doctor_login_usuario);
         passwordIngresado = (EditText) findViewById(R.id.doctor_login_password);
-        iniciarSesion = (Button) findViewById(R.id.login_button_medico);
+        iniciarSesionMedico = (Button) findViewById(R.id.login_button_medico);
     }
 }
