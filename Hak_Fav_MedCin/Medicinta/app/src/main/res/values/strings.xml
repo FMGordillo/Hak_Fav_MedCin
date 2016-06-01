@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">MEDICINTA</string>
+    <string name="agenda_button">Contacto</string>
+    <string name="mensajes_button">Mensajes</string>
+    <string name="consultas_button">Consultar Médico</string>
+    <string name="calendario_button">Calendario</string>
+    <string name="textoSinRespuesta">Hemos detectado una anomalía. Por favor responda las siguientes preguntas. Recuerde que es por su seguridad. Al finalizar haga clic en "Listo".</string>
+
+    <!-- PREGUNTAS DEL CUESTIONARIO -->
+    <string name="cuestionario1">1) Del 1 al 10, ¿cómo se siente?</string>
+    <string name="cuestionario2">2) ¿Presenta alguno de estos síntomas? Si es así, selecciónelo</string>
+    <string name="cuestionario3">3) Del 1 al 10, califique si presenta dolor y/o hinchazón abdominal.</string>
+    <string name="cuestionario4">4) ¿Se encuentra acompañado?</string>
+    <string name="cuestionario5">5) ¿Necesita ayuda?</string>
 </resources>

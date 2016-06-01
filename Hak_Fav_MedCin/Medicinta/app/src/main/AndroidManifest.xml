@@ -16,7 +16,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".paciente.PacienteLogin" />
-        <activity android:name=".paciente.TableroPaciente"></activity>
+        <activity android:name=".paciente.TableroPaciente" />
+        <activity android:name=".paciente.SinRespuesta" />
+        <activity android:name=".paciente.SinRespuestaAgradecimiento"></activity>
     </application>
 
 </manifest>
