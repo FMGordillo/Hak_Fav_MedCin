@@ -30,8 +30,8 @@ public class TableroMedico extends AppCompatActivity {
     }
 
     private void initComponents() {
-        mensajes = (Button) findViewById(R.id.mensajes_button);
-        pacientes = (Button) findViewById(R.id.consultar_button);
+        mensajes = findViewById(R.id.mensajes_button_medico);
+        pacientes = findViewById(R.id.pacientes_asignados_button_medico);
 
     }
 }
