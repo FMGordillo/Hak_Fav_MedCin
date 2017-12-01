@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Medicinta.iml" filepath="$PROJECT_DIR$/Medicinta.iml" />
+      <module fileurl="file://C:\Users\facun\Documents\Development\Hak_Fav_MedCin\Hak_Fav_MedCin\Medicinta\Medicinta.iml" filepath="C:\Users\facun\Documents\Development\Hak_Fav_MedCin\Hak_Fav_MedCin\Medicinta\Medicinta.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\facun\Documents\Development\Hak_Fav_MedCin\Hak_Fav_MedCin\Medicinta\app\app.iml" filepath="C:\Users\facun\Documents\Development\Hak_Fav_MedCin\Hak_Fav_MedCin\Medicinta\app\app.iml" />
     </modules>
   </component>
 </project>
